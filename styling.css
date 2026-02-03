@@ -3,6 +3,9 @@
 *::after {
   box-sizing: border-box;
 }
+* {
+  -webkit-tap-highlight-color: transparent;
+}
 body {
   background-color: #7c3baf;
   font-family: sans-serif, arial;
@@ -413,3 +416,4 @@ select,
   flex-direction: row;
   gap: 1px;
 }
+
