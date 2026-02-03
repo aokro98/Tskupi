@@ -140,7 +140,14 @@ let aliasWords = [
   'Scorpion', 'Album', 'Astronomy', 'Constellation', 'Helmet', 'Protein', 'Rubber','Armor', 
   'Alert', 'Geometry', 'Wish', 'Art', 'Politics', 'Market', 'Skill', 'Wrinkle', 'Orbit',
   'Shatter', 'Cable', 'Raccoon', 'Alcohol', 'Centipede', 'Electricity', 'Potential', 'Gravity',
-  'Wax', 'Drowning', 'Half', 'Sympathy', 'Rage', 'Caricature', 'Horn', 'Elevator', 'Undergound'
+  'Wax', 'Drowning', 'Half', 'Sympathy', 'Rage', 'Caricature', 'Horn', 'Elevator', 'Undergound',
+  'Dilemma', 'Perpendicular', 'Lobster', 'Sunshine', 'Vampire', 'Engagement', 'Example', 
+  'Annoying', 'Mercy', 'Supper', 'Election', 'Layer', 'Pomegranate', 'Innocent', 'Duel', 'Furnace',
+  'Close', 'Practical', 'Thorn', 'Glacier', 'Opposite', 'Upgrade', 'Violence', 'Exorcise', 'Pain',
+  'Keyboard', 'Force', 'Talented', 'Midnight', 'Eraser', 'Drunk', 'Apocalypse', 'Private', 
+  'Moment', 'Crawl', 'Socialise', 'Capital', 'Value', 'Gap', 'Acetone', 'Ink', 'Ultraviolet',
+  'Vase', 'Accessory', 'Virtual', 'Medicine', 'Transparent', 'Reptile', 'Toad', 'Silk', 'Smooth'
+    
 ];
 
 let timerInterval;
@@ -218,4 +225,5 @@ function endAlias() {
     document.getElementById('timer').textContent = '';
     document.getElementById('white-logo').style.display = 'block';
 }
+
 
