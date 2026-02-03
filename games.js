@@ -1,14 +1,3 @@
-const documents = [
-    { title: "Coin Flip", url: "coin-flip.html" },
-    { title: "Dice Roll", url: "dice-roll.html" },
-    { title: "Truth or Dare", url: "truth-or-dare.html" },
-    { title: "Alias", url: "alias.html" },
-    { title: "Imposter", url: "imposter.html" },
-    { title: "Prize Wheel", url: "prize-wheel.html" },
-    { title: "Deck of Cards", url: "card-deck.html" },
-    { title: "Random Number", url: "random-number.html" },
-    { title: "About Me", url: 'about.html'}
-];
 
 function performSearch() {
     const input = document.getElementById('mainSearchBar');
@@ -229,3 +218,4 @@ function endAlias() {
     document.getElementById('timer').textContent = '';
     document.getElementById('white-logo').style.display = 'block';
 }
+
