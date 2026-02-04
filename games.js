@@ -127,7 +127,8 @@ let aliasWords = [
   'Comedy', 'Catastrophe', 'Concert', 'Trauma', 'Tattoo', 'Transformation', 'Parachute', 'Ostrich',
   'Pyramid', 'Lasso', 'Watermelon', 'Church', 'Cape', 'Sunglasses', 'Paranoid', 'Jar', 'Symphony',
   'Radio', 'Vein', 'Straw', 'Symbol', 'Conflict', 'Collect', 'Cockroach', 'Glove', 'Shock', 
-  'Mint', 'Ceiling', 'Arithmetics', 'Peripheral', 'Mumble', 'Bruise', 'Hedgehog', 'Perfume'
+  'Mint', 'Ceiling', 'Arithmetics', 'Peripheral', 'Mumble', 'Bruise', 'Hedgehog', 'Perfume',
+  'Protagonist', 'Harmony', 'Concrete', 'Information', 'Childish', 'Progress', 'Crack'
 ];
 
 let timerInterval;
@@ -205,3 +206,4 @@ function endAlias() {
     document.getElementById('timer').textContent = '';
     document.getElementById('white-logo').style.display = 'block';
 }
+
